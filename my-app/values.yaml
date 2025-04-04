@@ -1,0 +1,12 @@
+appName: python-app
+namespace: default
+replicas: 1
+image:
+  repository: pheblar/flask_python_currency-weather_app
+  tag: "build-32"
+containerPort: 8000
+serviceName: python-service
+servicePort: 8000
+ingressName: python-ingress
+ingressHost: r-shor.ru
+ingressPath: /info
