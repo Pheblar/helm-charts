@@ -12,3 +12,5 @@ ingressHost: r-shor.ru
 ingressPath: /info
 autoscaling:
   enabled: false
+ingress:
+  enabled: true
