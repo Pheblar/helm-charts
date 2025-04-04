@@ -10,3 +10,5 @@ servicePort: 8000
 ingressName: python-ingress
 ingressHost: r-shor.ru
 ingressPath: /info
+autoscaling:
+  enabled: false
